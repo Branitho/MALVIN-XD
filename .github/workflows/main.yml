@@ -1,17 +1,14 @@
 name: Node.js CI
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  schedule:
+    - cron: '0 */6 * * *'   # Run every 6 hours (UTC)
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 360     # Max runtime per job: 6 hours
 
     strategy:
       matrix:
