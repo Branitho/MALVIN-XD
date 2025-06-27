@@ -77,7 +77,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
               DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "false",
+        READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -100,7 +100,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "true",
@@ -118,7 +118,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
       ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
-      AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+      AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 version: process.env.version || "0.0.5",
